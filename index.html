@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>spirit8</title>
+  <!-- 导入bootstrap.css文件 -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/animate.css">
+
+  <!-- 导入公共样式 -->
+  <link rel="stylesheet/less" href="./css/common.less">
+
+  <!-- 导入banner样式 -->
+  <link rel="stylesheet/less" href="./css/index.less">
+  <!-- 导入样式重置文件 -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <header class="header wow fadeInUp" data-wow-delay="100ms">
+    <nav class=" navbar navbar-inverse" >
+      <div class="container">
+
+        <div class="nav_close_con navbar-header">
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">spirit8</a>
+        </div>
+
+        <div class="nav_list collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#banner" class=" wow fadeInUp" data-wow-delay="200ms">home</a></li>
+            <li><a href="#about" class=" wow fadeInUp" data-wow-delay="300ms">about</a></li>
+            <li><a href="#team" class=" wow fadeInUp" data-wow-delay="400ms">team</a></li>
+            <li><a href="#services" class=" wow fadeInUp" data-wow-delay="500ms">services</a></li>
+            <li><a href="#testimonials" class=" wow fadeInUp" data-wow-delay="600ms">testimonials</a></li>
+            <li><a href="#contact" class=" wow fadeInUp" data-wow-delay="700ms">contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- banner背景 -->
+  <div class="banner wow fadeInUp" data-wow-delay="200ms" id="banner">
+    <div class="banner_box wow bounceIn" data-wow-delay="300ms">
+      <h3 class="title">
+        welcome on
+        <span>spirit8</span>
+      </h3>
+      
+      <p class="banner_info wow rubberBand" data-wow-delay="1.2s">
+        We are a digital agency with
+        <span>years of experience</span>
+        and with
+        <span>extraordinary people</span>
+      </p>
+
+      <div class="banner_more wow fadeIn" data-wow-delay="1.4s">
+        <a href="#foots">↓</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 电脑 -->
+  <div class="about container wow fadeInUp" data-wow-delay="200ms" id="about">
+    <div class="about_img">
+      <img src="./assets/images/s2pirit8_03.gif" class="img-responsive">
+    </div>
+
+    <div class="about_right">
+        <div class="about_title text-uppercase">
+          <p>abouot us</p>
+          <h3>
+            <span>some</span>
+            words
+            <span>about us</span>
+          </h3>
+        </div>
+
+        <div class="about_con">
+          <p>
+            We love building and rebuilding brands through our specific skills. Using colour, fonts, and
+            illustration, we brand
+            companies in a way they will never forget.
+          </p>
+        </div>
+
+        <ul>
+          <li class="about_li">
+            <i class="glyphicon glyphicon-record"></i>
+            <span>Mission - </span>
+              We deliver uniqueness and quality
+          </li>
+          <li class="about_li">
+            <i class="glyphicon glyphicon-record"></i>
+            <span>Skills - </span>
+              We deliver uniqueness and quality
+          </li>
+          <li class="about_li">
+            <i class="glyphicon glyphicon-record"></i>
+            <span>Clients - </span>
+              We deliver uniqueness and quality
+          </li>
+        </ul>
+
+        <!-- 按钮 -->
+        <a href="javascript:;">
+          <i class="glyphicon glyphicon-briefcase"></i>
+          <span>browse our work</span>
+        </a>
+
+    </div>
+  </div>
+
+  <!-- 人像卡片 -->
+  <div class="team wow fadeInUp" data-wow-delay="200ms" id="team">
+    <div class="team_box container">
+      <h3 class=" wow fadeInUp" data-wow-delay="300ms">
+        MEET
+        <span>our team</span>
+      </h3>
+
+      <div class="team_media media col-xs-12 col-sm-12 col-md-3  wow fadeInUp" data-wow-delay="500ms">
+        <div class="team_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/1.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="team_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">Jason Statham</h1>
+          <h4 class="media-heading col-xs-12 col-md-12">Knife designer</h4>
+          <p class="col-xs-12 col-md-12">Do not seek to change what has come before. Seek to create that which has not.
+          </p>
+        </div>
+      </div>
+
+      <div class="team_media media col-xs-12 col-sm-12 col-md-3 wow fadeInUp" data-wow-delay="700ms">
+        <div class="team_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/1.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="team_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">Jason Statham</h1>
+          <h4 class="media-heading col-xs-12 col-md-12">Knife designer</h4>
+          <p class="col-xs-12 col-md-12">Do not seek to change what has come before. Seek to create that which has not.
+          </p>
+        </div>
+      </div>
+
+      <div class="team_media media col-xs-12 col-sm-12 col-md-3 wow fadeInUp" data-wow-delay="900ms">
+        <div class="team_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/1.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="team_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">Jason Statham</h1>
+          <h4 class="media-heading col-xs-12 col-md-12">Knife designer</h4>
+          <p class="col-xs-12 col-md-12">Do not seek to change what has come before. Seek to create that which has not.
+          </p>
+        </div>
+      </div>
+
+      <div class="team_media media col-xs-12 col-sm-12 col-md-3 wow fadeInUp" data-wow-delay="1100ms">
+        <div class="team_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/1.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="team_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">Jason Statham</h1>
+          <h4 class="media-heading col-xs-12 col-md-12">Knife designer</h4>
+          <p class="col-xs-12 col-md-12">Do not seek to change what has come before. Seek to create that which has not.
+          </p>
+        </div>
+      </div>
+
+      <ul class="container wow fadeInUp" data-wow-delay="1200ms">
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 提供服务 -->
+  <div class="services wow fadeInUp" data-wow-delay="200ms" id="services">
+    <div class="big_box container">
+      <div class="big_title wow fadeInUp" data-wow-delay="300ms">
+        <h1>
+          take a look at
+          <span> our services</span>
+        </h1>
+      </div>
+
+      <p class="big_p wow fadeInUp" data-wow-delay="400ms">
+        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes ofGood and Evil)by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during theRenaissance. Thefirst line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+      </p>
+
+      
+      <div class="big_media media col-xs-12 col-sm-12 col-md-3  wow fadeInUp" data-wow-delay="500ms">
+        <div class="big_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/01.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="big_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">Web design</h1>
+          <p class="col-xs-12 col-md-12">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="big_media media col-xs-12 col-sm-12 col-md-3 wow fadeInUp" data-wow-delay="600ms">
+        <div class="big_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/02.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="big_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">Mobile apps</h1>
+          <p class="col-xs-12 col-md-12">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          </p>
+        </div>
+      </div>
+
+      <div class="big_media media col-xs-12 col-sm-12 col-md-3 wow fadeInUp" data-wow-delay="700ms">
+        <div class="big_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/03.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="big_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">PHOTOGRAPHY</h1>
+          <p class="col-xs-12 col-md-12">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          </p>
+        </div>
+      </div>
+
+      <div class="big_media media col-xs-12 col-sm-12 col-md-3 wow fadeInUp" data-wow-delay="800ms">
+        <div class="big_lefts media-left media-middle col-xs-4 col-md-12">
+          <a href="#" class="">
+            <img class="media-object img-responsive " src="./assets/images/04.png" alt="">
+          </a>
+        </div>
+
+          <!-- media-body对其栅格系统有冲突 -->
+        <div class="big_rights col-xs-8 col-md-12">
+          <h1 class="media-heading col-xs-12 col-md-12">marketing</h1>
+          <p class="col-xs-12 col-md-12">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 支持的客户端 -->
+  <div class="clients wow fadeInUp" data-wow-delay="200ms" id="clients">
+    <div class="clients_box container">
+      <div class="clients_title wow fadeInUp" data-wow-delay="300ms">
+        <h1>
+          take a look at
+          <span> our services</span>
+        </h1>
+      </div>
+
+      <div class="clients_con">
+        <img src="./assets/images/clien/Layer 65.png" class="img-responsive wow fadeInUp" data-wow-delay="400ms" alt="">
+        <img src="./assets/images/clien/Layer 67.png" class="img-responsive wow fadeInUp" data-wow-delay="500ms" alt="">
+        <img src="./assets/images/clien/Layer 68.png" class="img-responsive wow fadeInUp" data-wow-delay="600ms" alt="">
+        <img src="./assets/images/clien/Layer 69.png" class="img-responsive wow fadeInUp" data-wow-delay="700ms" alt="">
+        <img src="./assets/images/clien/04.png" class="img-responsive wow fadeInUp" data-wow-delay="800ms" alt="">
+      </div>
+
+      <ul class="container wow fadeInUp" data-wow-delay="900ms">
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 工作 -->
+  <div class="work wow fadeInUp" data-wow-delay="200ms" id="work">
+    <div class="work_box container">
+      <div class="work_title wow fadeInUp" data-wow-delay="300ms">
+        <h1>
+          take a look at 
+          <span>our work</span>
+        </h1>
+      </div>
+
+      <div class="work_con wow fadeInUp" data-wow-delay="400ms">
+        <h1>
+          This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,"Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        </h1>
+      </div>
+
+      <div class="work_item wow fadeInUp" data-wow-delay="400ms">
+        <div class="work_list">
+          <div class="work_left">
+            <p>
+              Filter by type
+            </p>
+          </div>
+
+          <div class="work_right">
+            <ul>
+              <li><a href="javascript:;">All</a></li>
+              <li><a href="javascript:;">Web Design</a></li>
+              <li><a href="javascript:;">Mobile Design</a></li>
+              <li><a href="javascript:;">Photograpy</a></li>
+            </ul>
+          </div>
+
+          <div class="work_select">
+            <select name="select" select="All">
+              <option value="">All</option>
+              <option value="">Web Design</option>
+              <option value="">Mobile Design</option>
+              <option value="">Photograpy</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="work_thumb_box col-xs-12">
+        <!-- 一部分 -->
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="500ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="600ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="700ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="800ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 二部分 -->
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="900ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img2.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="1000ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img2.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="1100ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img2.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="1200ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img2.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 三部分 -->
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="1300ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img3.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="1400ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img3.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="1500ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img3.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="work_thumb col-xs-6 col-sm-6 col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="1600ms">
+          <div class="">
+            <img src="./assets/images/thumb/work-img3.png" class="img-responsive col-xs-12" alt="">
+            <div class="work_thumb_el">
+              <h1>TREND AND FASHION</h1>
+              <p>Website design</p>
+              <div class="thumb_push">+</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 推荐 -->
+  <div class="testimonials wow fadeInUp" data-wow-delay="200ms" id="testimonials">
+    <div class="testimonials_box container">
+      <div class="testimonials_title wow fadeInUp" data-wow-delay="300ms">
+        <h1>
+          our clients’
+          <span>testimonials</span>
+        </h1>
+      </div>
+
+      <div class="testimonials_con wow fadeInUp" data-wow-delay="400ms">
+        <h1>
+          This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,"Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        </h1>
+        <h3>Dean Martin, CEO Acme Inc.</h3>
+      </div>
+
+      <ul class="container wow fadeInUp" data-wow-delay="500ms">
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 联系 -->
+  <div class="contact wow fadeInUp" data-wow-delay="200ms" id="contact">
+    <div class="contact_box container">
+      <div class="contact_title wow fadeInUp" data-wow-delay="300ms">
+        <h1>
+          feel free to
+          <span> contact us</span>
+        </h1>
+      </div>
+
+      <div class="contact_con wow fadeInUp" data-wow-delay="400ms">
+        <h1>
+          Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+          by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during theRenaissance.
+        </h1>
+      </div>
+
+      <div class="tab">
+        <form action="#" method="post"  enctype="multipart/form-data" class="tab_from">
+          <div class="tab_top">
+
+            <div class="top_name wow fadeInUp" data-wow-delay="500ms">
+              <h5>Name <sup>*</sup></h5>
+              <input type="text" name="username" placeholder="请输入用户名">
+            </div>
+            <div class="top_email wow fadeInUp" data-wow-delay="600ms">
+              <h5>Email Address <sup>*</sup></h5>
+              <input type="email" name="email" id="email" placeholder="请输入邮箱">
+            </div>
+
+          </div>
+
+          <div class="tab_center wow fadeInUp" data-wow-delay="700ms">
+              <h5>Email Address <sup>*</sup></h5>
+              <textarea placeholder="请输入需要反馈的内容"></textarea>
+          </div>
+
+          <div class="tab_bottom wow fadeInUp" data-wow-delay="800ms">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部信息 -->
+  <div class="foot wow fadeInUp" id="foots" data-wow-delay="200ms">
+    <div class="foot_box container">
+      <div class="box_left wow fadeInUp" data-wow-delay="300ms">
+        ALL RIGHTS RESERVED. COPYRIGHT ©
+        <span>2014 SPIRIT8</span>
+      </div>
+
+      <div class="box_right">
+        <div class="right_flex">
+          <a href="javascript:;" class=" wow fadeInUp" data-wow-delay="400ms">
+            <img src="./assets/images/footer/footer1.png">
+          </a>
+          <a href="javascript:;" class=" wow fadeInUp" data-wow-delay="500ms">
+            <img src="./assets/images/footer/footer2.png">
+          </a>
+          <a href="javascript:;" class=" wow fadeInUp" data-wow-delay="600ms">
+            <img src="./assets/images/footer/footer3.png">
+          </a>
+          <a href="javascript:;" class=" wow fadeInUp" data-wow-delay="700ms">
+            <img src="./assets/images/footer/footer4.png">
+          </a>
+          <a href="javascript:;" class=" wow fadeInUp" data-wow-delay="800ms">
+            <img src="./assets/images/footer/footer5.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="up">
+    <a href="#banner">
+      <img src="./assets/images/up_top.svg" alt="">
+    </a>
+  </div>
+
+  <!-- 导入jq -->
+  <script src="./assets/js/jquert@3.6.0.js"></script>
+  <!-- 导入bootstrapjs文件文件 -->
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <!-- 导入less文件 -->
+  <script src="./assets/js/less.min.js"></script>
+  <!-- 导入wowjs -->
+  <script src="./assets/js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
